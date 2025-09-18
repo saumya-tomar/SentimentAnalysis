@@ -15,7 +15,7 @@ model = pickle.load(open(r'C:\Users\RentoBees\PycharmProjects\Sentiment-Analysis
 def load_data():
     column_names = ['target', 'id', 'date', 'flag', 'user', 'text']
     twitter_data = pd.read_csv(
-        r'C:\Users\RentoBees\PycharmProjects\Sentiment-Analysis\training.1600000.processed.noemoticon.csv',
+        r'C:\Users\RentoBees\PycharmProjects\Sentiment-Analysis\data.csv',
         names=column_names, encoding='ISO-8859-1')
     twitter_data.replace({'target': {4: 1}}, inplace=True)
     return twitter_data

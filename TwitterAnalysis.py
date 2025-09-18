@@ -25,7 +25,7 @@ nltk.download('stopwords')
 
 #Loading data from csv file to pandas dataframe
 column_names = ['target', 'id', 'date', 'flag', 'user', 'text']
-twitter_data = pd.read_csv(r'C:\Users\RentoBees\PycharmProjects\Sentiment-Analysis\training.1600000.processed.noemoticon.csv', names=column_names, encoding = 'ISO-8859-1')
+twitter_data = pd.read_csv(r'C:\Users\RentoBees\PycharmProjects\Sentiment-Analysis\data.csv', names=column_names, encoding = 'ISO-8859-1')
 print(twitter_data.shape) #checking the no. of rows and columns
 print(twitter_data.head())
 print(twitter_data.isnull().sum()) #for missing values/text
