@@ -1,0 +1,12 @@
+.venv/
+.venv
+.gitattributes
+.idea
+.idea/Sentiment-Analysis.iml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+\trained_model.sav
+\sentiment140.zip
+\training.1600000.processed.noemoticon.csv
